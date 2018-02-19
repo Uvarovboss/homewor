@@ -34,23 +34,7 @@ switch (boss){
 	alert("ваш заказ готовиться! " + "ваша здача : " + cesh);
 	break;
 }
-if (a >=10 ) {
-	var boss = prompt("Желаите ли вы конфету? (1-Mars) (2-Snikers) (3-Baunti");
-}
-switch (boss){
-	case "1":
-	var cesh = a - Mars;
-	alert("ваш заказ готовиться! " + "ваша здача : " + cesh);
-	break;
-	case "2":
-	var cesh = a - Snikers;
-	alert("ваш заказ готовиться! " + "ваша здача : " + cesh);
-	break;
-	case "3":
-	var cesh = a - Baunti;
-	alert("ваш заказ готовиться! " + "ваша здача : " + cesh);
-	break;
-}
+
 
 
 // else if ( a > b){
