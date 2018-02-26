@@ -90,7 +90,7 @@
 
 var word = prompt("input your word");
 var code = " ";
-var back = Number(prompt("Твое цисло"));
+var back = Number(prompt("Твое чесло"));
 for (var i = 0; i < word.length; i++) {
 	var codepoint = word [i].charCodeAt();
 	codepoint -=back;
