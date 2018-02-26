@@ -1,10 +1,10 @@
-var a = Number(prompt("Введите радиус:"));
-var i = 3.14;
-var b;
-b=2*i*a;
-var s = i*a*a;
+// var a = Number(prompt("Введите радиус:"));
+// var i = 3.14;
+// var b;
+// b=2*i*a;
+// var s = i*a*a;
 
-document.write("Длина круга = " + b + "<br>" + "Площадь = " + s);
+// document.write("Длина круга = " + b + "<br>" + "Площадь = " + s);
 
 // var i = 1;
 // for (i =1;i<100;i++){
@@ -87,3 +87,13 @@ document.write("Длина круга = " + b + "<br>" + "Площадь = " + s
 // }else{
 // 	document.write(false)
 // }
+
+var word = prompt("input your word");
+var code = " ";
+var back = Number(prompt("Твое цисло"));
+for (var i = 0; i < word.length; i++) {
+	var codepoint = word [i].charCodeAt();
+	codepoint -=back;
+	code += String.fromCharCode(codepoint);
+}	
+	alert(code);  
