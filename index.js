@@ -87,13 +87,63 @@
 // }else{
 // 	document.write(false)
 // }
+	
+	//Кодировка слов)
 
-var word = prompt("input your word");
-var code = " ";
-var back = Number(prompt("Твое чесло"));
-for (var i = 0; i < word.length; i++) {
-	var codepoint = word [i].charCodeAt();
-	codepoint -=back;
-	code += String.fromCharCode(codepoint);
-}	
-	alert(code);  
+// var word = prompt("input your word");
+// var code = " ";
+// var back = Number(prompt("Твое чесло"));
+// for (var i = 0; i < word.length; i++) {
+// 	var codepoint = word [i].charCodeAt();
+// 	codepoint -=back;
+// 	code += String.fromCharCode(codepoint);
+// }	
+// 	alert(code); 
+
+//квадратное уравнения 
+  
+// var a;
+// var b;
+// var c;
+// var D;
+// var x1;
+// var x2;
+// function getCof() {
+// 	a = Number(prompt("input a"));
+// 	b = Number(prompt("input b"));
+// 	c = Number(prompt("input c"));
+// }
+// function calcDisc(a,b,c){
+// 	var Di = b*b-a*c;
+// 	if (Di<0) {
+// 		alert("heva not roots")
+// 	}
+// 	if (Di>0) {
+// 		x1 = (b*-1 + Math.sqrt(Di)) / (2 * a);
+// 		x1 = (b*-1 - Math.sqrt(Di)) / (2 * a);
+// 		alert(x1 + "" + x2);
+// 	}
+// 	if (Di==0) {
+// 		D= -b / (2*a);
+// 		alert(D);
+// 	}
+// }
+// getCof();
+// calcDisc(a, b, c,);
+
+//Числа Фибоначи
+
+function Fff(){
+	var n = Number(prompt("input nomber"));
+	var a =1;
+	var b=1;
+	var s;
+	for (var i =3;i<=n; i++){
+		s = a + b;
+		a = b;
+		b = s;
+	}
+	alert(b)
+}
+Fff();
+
